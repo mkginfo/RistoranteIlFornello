@@ -1,0 +1,143 @@
+
+<!-- Static navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top nav-bgColor">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Ristorante Il Fornello</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" 
+              aria-haspopup="true" aria-expanded="false">Menu <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Ristorante Il Fornello</h1>
+        <p>Simple, fresh ingredients, prepared and cooked with ove and passion become</p>
+        <p>truly great dishes, from wood-oven baked Neapolitan style pizzas to pastas,</p>
+        <p>entress!</p>     
+      </div>
+    </div>
+
+    <div class="container contentPadding">
+      <div class="row">
+            <div class="col-md-9">
+                <h3>Fichipizza</h3>
+                <p>a unique combination of Mediterranean and Italian pizza, topped with 
+                Macscarphone, proscuitto, figs, grando, honey and arugula.</p>
+                <a href="#">more &raquo;</a>
+            </div>
+            <div class="col-md-3">
+                <h3 class="text-center">Our Unique Culinary <br/>Creations</h3>
+            </div>
+        </div>
+    </div>
+    <hr/>
+    <div class="container contentPadding">
+      <div class="row">
+        <div class="col-md-3">
+            <h3 class="text-center">This Months's <br/>Promotions</h3>
+        </div>
+        <div class="col-md-9">
+            <h3>Weekeen Grand Buffet</h3>
+            <p>Featuring mouthwatering combinations with choice of five diffent salads, six enticing 
+                appetizers, six amin entrees and five choicest desserts. Free flowing bubbly and soft drinks. 
+                All for just $19.99 per person</p>
+            <a href="#">more &raquo;</a>
+        </div>
+        </div>
+    </div>
+    <hr/>
+    <div class="container contentPadding">
+      <div class="row">
+        <div class="col-md-9">
+            <h3>Tommy McHugh</h3>
+            <strong>Executive Chef</strong>
+            <p>Award winning three-star Michelin chef with wide International experience having wrked closely with whos-who in the culinary
+            world, he specializes in creating mouthwatering Mediterranean-Italian experiences.</p>
+            <a href="#">more &raquo;</a>
+        </div>
+        <div class="col-md-3">
+            <h3 class="text-center">Meet our Culinary <br/>Specialists</h3>
+        </div>
+      </div>
+    </div>
+    
+    <hr/>
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h3 class="menuItems">IL FORNELLO MENU</h3>
+        </div>
+        <ag-grid-ng2 #agGrid class="ag-material col-md-6" rowHeight="50" 
+            [gridOptions]="myGridOptions">
+            </ag-grid-ng2>
+      </div>
+    </div>
+
+    <div class="container">
+      <footer class="footer">
+        <div class="col-md-4">
+          <h2>Link</h2>
+          <a href="#">Home</a><br/>
+          <a href="#">About</a><br/>
+          <a href="#">Menu</a><br/>
+          <a href="#">Contact</a><br/>
+        </div>
+        <div class="col-md-4">
+          <h2>Our Address</h2>
+          <p><div>214, King street West</div>
+          <div>Downtown, Toronto</div>
+          <div>ONTARIO</div>
+          <div>Contact No: +416 1234 5678</div>
+          <div>Mail :<a href="#">View details &raquo;</a></div><p>
+       </div>
+        <div class="col-md-4">
+           <h2>Social Icons</h2>
+          <div class="btn-group" role="group" aria-label="">
+            <button type="button" class="btn btn-default btn-success">Google</button>
+            <button type="button" class="btn btn-default btn-primary">Facebook</button>
+            <button type="button" class="btn btn-default btn-info">LinkedIn</button>
+          </div>
+          <hr>
+          <div class="btn-group" role="group" aria-label=""> 
+            <button type="button" class="btn btn-default btn-warning">Twitter</button>
+            <button type="button" class="btn btn-default btn-danger">Youtube</button>
+            <button type="button" class="btn btn-default">
+                <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+            Mail</button>
+          </div>
+        </div>
+        <p class="text-center">© Copyright 2015 Ristorante Il Fornello</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+
+
