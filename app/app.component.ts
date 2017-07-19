@@ -25,7 +25,7 @@ export class AppComponent {
          headers.push({
             headerName: key.toUpperCase(),
             field: key,
-            width: 100
+            width: 200
          })
       });
 

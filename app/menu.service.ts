@@ -46,6 +46,18 @@ export class MenuService {
         details: 'Tomato sauce, mozzarella, prosciutto, shaved parmagiana, dressed arugula',
         halfPrice: '-',
         fullPrice: '$15.25'
+      }, {
+        type: 'DESSERT',
+        name: 'Tiramisù',
+        details: 'Layers of espresso and liqueur soaked biscuits and mascarpone cheese',
+        halfPrice: '-',
+        fullPrice: '$7.25'
+      }, {
+        type: 'DESSERT',
+        name: 'Chocolate Souffle Cake',
+        details: 'House-made warm chocolate souffle cake',
+        halfPrice: '-',
+        fullPrice: '$7.25'
       }
 
     ];
